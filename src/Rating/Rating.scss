@@ -1,0 +1,15 @@
+.rating {
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.star {
+  font-size: 2em;
+  margin: 0 5px;
+  color: #ccc;
+}
+
+.star.selected {
+  color: #f39c12;
+}
